@@ -1,12 +1,31 @@
-# React + Vite
+# Question-2: 🌐 URL Shortener Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React-based URL Shortener web application built as part of **Question 2** for the internship assessment. The app allows users to shorten long URLs, track basic analytics, and handle redirection using a custom short code.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔗 Shorten long URLs into custom short codes
+- 📊 Display analytics or statistics for shortened URLs
+- 🔁 Automatically redirect based on short URL
+- 🎨 Built with Material UI (MUI) for modern UI components
+- 🧭 Uses React Router for smooth client-side routing
+- 📝 Includes custom logging middleware
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+# ▶️ How to Run Locally
+
+# Step 1: Clone the repo
+git clone https://github.com/SandeepKumarChappa/12215859.git
+
+# Step 2: Navigate to Question 2 folder
+cd 12215859/question2
+
+# Step 3: Install dependencies
+npm install
+
+# Step 4: Start the development server
+npm run dev
+App will be available at: http://localhost:5173/
